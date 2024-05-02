@@ -1,4 +1,4 @@
-##############################What’s the difference between labeled and unlabeled data?###############
+########What’s the difference between labeled and unlabeled data?###############
 
 Before we dive into the question at hand, let's first start off by defining labeled data and unlabeled data.
 
@@ -12,7 +12,7 @@ Labeled data requires the additional process of labeling, while unlabeled data i
 Labeled data is harder to obtain (there are less datasets available, or you have to label it yourself), whereas unlabeled data is more abundant.
 Now, let's dive into the details.
 
-#####################################Labeled data################################################
+#################Labeled data##################################
 With the help of human annotators, labeled data enhances a set of unlabeled data with meaningful tags, labels, or classes. 
 Once a labeled dataset is created, a machine learning model can be fed this labeled dataset so that when it encounters new unlabeled data,
 it can accurately predict and assign an appropriate label to that data.
@@ -25,14 +25,14 @@ It’s harder to obtain and store (can be time consuming and costly).
 
 It can be used to identify actionable insights, such as predictions.
 
-################################Supervised learning can further be broken down into two subsets:##################################
+#########Supervised learning can further be broken down into two subsets:#############
 
 Classification: Using algorithms to correctly assign test data to specific categories, such as separating junk mail from your inbox.
 
 Regression: Using algorithms to understand the relationship between dependent and independent variables and forecasting numbers based
 on different data points, such as sales revenue projections.
 
-##############################################Unlabeled data#######################################################################
+########################Unlabeled data#####################
 Unlabeled data on the other hand, doesn't have any meaningful tags or labels and usually consists of natural or human-created samples 
 such as photos, audio recordings, videos, news articles, tweets, or x-rays that can be easily obtained.
 

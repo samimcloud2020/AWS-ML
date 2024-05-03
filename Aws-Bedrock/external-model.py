@@ -24,4 +24,7 @@ response = bedrock.invoke_model(
     accept=api_request["accept"],
     body=json.dumps(api_request["body"])
 )
+response_body = json.loads(response['body'].read())
 
+# Print the response from the model
+print(response_body)
